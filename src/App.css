@@ -91,3 +91,11 @@ body {
   padding: 7px;
   width: 150px;
 }
+
+input:focus {
+    border: none;
+    box-shadow: 0 0 3px rgb(57, 97, 161);
+    outline-offset: 0px;
+    outline: none;
+    padding: 5px;
+}

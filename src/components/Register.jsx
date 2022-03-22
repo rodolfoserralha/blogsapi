@@ -1,19 +1,11 @@
 import React, { useState } from 'react';
 
-export default function RightLogin() {
+export default function Register() {
   const [register, setRegister] = useState(false);
-
-  function handleOnClick() {
-    setRegister(!register)
-
-    if (register === true) {
-      alert('Usuário cadastrado com sucesso')
-    }
-  }
 
   return (
     <div className="right-side-login">
-      <h2 className="welcome">{ register === false ? 'Seja bem-vindo' : 'Digite os dados' }</h2>
+      <h2 className="welcome">Digite os dados</h2>
       <div className="inputs">
         <label className="label-input" htmlFor="user">Usuário</label>
         <input className="input-login" id="user" type="text" />
@@ -25,9 +17,9 @@ export default function RightLogin() {
       <button 
         className="sign"
         type="button"
-        onClick={ handleOnClick }
+        onClick={ () => setRegister(!register) }
       >
-        { register === false ? 'Entrar' : 'Cadastrar' }
+        Cadastrar
       </button>
     </div>
   )

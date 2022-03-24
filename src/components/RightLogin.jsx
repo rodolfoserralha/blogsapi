@@ -20,10 +20,10 @@ export default function RightLogin() {
         method: 'POST',
         headers,
         body: JSON.stringify({ email, password })
-      });
+      }); 
 
       const data = await api.json();
-      
+
       if (!data.token) {
         return alert(`Erro ${api.status}: ${data.message}`)
       }

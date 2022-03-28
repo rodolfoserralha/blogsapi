@@ -1,0 +1,20 @@
+header {
+  align-items: center;
+  background-color: rgb(255, 94, 0);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header p {
+  color: white;
+  margin: 15px;
+}
+
+.logout {
+  all: unset;
+  color: white;
+  cursor: pointer;
+  margin: 15px;
+  margin-right: 40px !important;
+}

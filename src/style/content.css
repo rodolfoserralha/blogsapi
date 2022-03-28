@@ -1,0 +1,23 @@
+.left-content {
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 75%;
+}
+
+.posts-h1 {
+  align-self: center;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.posts {
+  align-self: center;
+  background-color: aliceblue;
+  border-radius: 5px;
+  height: 75vh;
+  width: 90%;
+}

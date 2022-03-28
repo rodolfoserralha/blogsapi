@@ -1,0 +1,57 @@
+.content {
+  display: flex;
+}
+
+.side-bar {
+  align-self: flex-end;
+  background-color: rgb(218, 218, 218);	
+  height: 100vh;
+  position: absolute;
+  right: 0px;
+  width: 25%;
+}
+
+.subscribe {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-right: 25px;
+  height: 205px;
+}
+
+.side-text {
+  align-self: center;
+  margin: 0;
+  text-align: center;
+  text-justify: inter-word;
+  width: 80%;
+}
+
+.subscribe-input {
+  align-self: center;
+  padding: 5px;
+  width: 76%;
+}
+
+.subscribe-btn {
+  align-self: center;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 80%;
+}
+
+.subscribe-bottom {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-right: 25px;
+  height: 662px;
+}

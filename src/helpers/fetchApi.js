@@ -65,8 +65,24 @@ export async function createPostApi(token, title, content) {
   return data;
 }
 
-export async function deletePost(token, id) {
-  await fetch(`http://localhost:3001/post${id}`, {
+export async function updatePostApi(token, id, title, content) {
+  const result = await fetch(`http://localhost:3001/post/${id}`, {
+    method: 'PUT',
+    headers: {
+      'Access-Control-Allow-Origin': 'http://localhost:3000',
+      "Content-Type": "application/json",
+      "Authorization": `${token}`,
+    },
+    body: JSON.stringify({ title, content })
+  });
+  const data = await result.json();
+
+  return data;
+}
+
+
+export async function deletePostApi(token, id) {
+  const result = await fetch(`http://localhost:3001/post/${id}`, {
     method: 'DELETE',
     headers: {
       'Access-Control-Allow-Origin': 'http://localhost:3000',
@@ -75,6 +91,6 @@ export async function deletePost(token, id) {
     },
   });
 
-  return;
+  return result;
 }
 

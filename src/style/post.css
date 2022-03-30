@@ -1,0 +1,34 @@
+.main-post {
+  margin-top: 20px !important;
+  margin: auto;
+  width: 80%;
+}
+
+.confirm {
+  background-color: white;
+  border: 1px solid rgb(255, 94, 0);
+  border-radius: 35px;
+  padding: 10px;
+  width: 92%;
+}
+
+.exclude-btn {
+  background-color: rgb(255, 94, 0);
+  border-radius: 35px;
+  border: none;
+  color: white;
+  font-family: 'Verdana';
+  margin-top: 10px;
+  padding: 10px;
+  width: 92%;
+}
+
+.go-back {
+  border: 0;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.go-back:hover {
+  cursor: pointer;
+}

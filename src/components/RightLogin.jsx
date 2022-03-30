@@ -8,7 +8,7 @@ export default function RightLogin() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const { name, setName, token, setToken } = useContext(Context)
+  const { name, setName, setToken } = useContext(Context)
   const navigate = useNavigate();
 
   async function handleOnClick() {
@@ -20,7 +20,7 @@ export default function RightLogin() {
         if (!data.token) {
           return alert(`Algo deu errado`);
         }
-  
+
         alert('Usuário criado com sucesso');
         return setRegister(!register);
       }
@@ -31,11 +31,12 @@ export default function RightLogin() {
       if (!data.token) {
         return alert(`Erro ${api.status}: ${data.message}`)
       }
+
       setName(data.displayName);
       setToken(data.token);
 
       alert('Login efetuado com sucesso');
-      navigate('/posts')
+      navigate(`/post`)
 
       return;
     } catch (error) {

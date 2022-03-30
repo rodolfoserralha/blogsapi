@@ -1,14 +1,16 @@
 import './App.css';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Login from './pages/Login';
-import Post from './pages/Posts';
+import Posts from './pages/Posts';
+import PostPage from './pages/Post';
 
 function App() {
   return (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={ <Login /> } />
-      <Route path="/posts" element={ <Post /> } />
+      <Route path="/post/:id" element={ <PostPage /> } />
+      <Route path="/post" element={ <Posts /> } />
     </Routes>
   </BrowserRouter>
   );

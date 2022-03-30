@@ -1,0 +1,27 @@
+.create-post {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  /* width: 90%; */
+}
+
+input, button, textarea {
+  margin: 5px;
+  padding: 5px;
+  width: 90%;
+}
+
+.create-post-btn {
+  background-color: rgb(255, 94, 0);
+  border: none;
+  color: white;
+  width: 92% !important;
+}
+
+.go-back {
+  background-color: white;
+  border: 1px solid rgb(255, 94, 0);
+  color: rgb(255, 94, 0);
+  width: 92% !important;
+}

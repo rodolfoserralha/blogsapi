@@ -16,8 +16,74 @@
 
 .posts {
   align-self: center;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
-  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-bottom: 50px;
   width: 90%;
+}
+
+.posts-icon {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.btn-post {
+  background-color: transparent;
+  border: none;
+  margin-top: 15px;
+  width: 200px;
+}
+
+.img-post {
+  width: 30%;
+}
+
+.posts-content {
+  align-items: center;
+  border: 1px solid rgb(255, 94, 0);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+
+.exclude-btn {
+  background-color: white;
+  background-image: url('https://cdn-icons.flaticon.com/png/512/3405/premium/3405244.png?token=exp=1648646137~hmac=29c97fbd92644b4dd198bfa3d16147c6');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+}
+
+/* .edit-btn {
+  height: 50px;
+  width: 15%;
+} */
+
+.edit-btn {
+	background-color:rgb(255, 94, 0);
+	border-radius:5px;
+	border:1px solid rgb(255, 94, 0);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+  width: 15%;
 }

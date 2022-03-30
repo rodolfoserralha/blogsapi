@@ -38,7 +38,7 @@
 
 .subscribe-btn {
   align-self: center;
-  background-color: red;
+  background-color: rgb(49, 184, 177);
   border: none;
   color: white;
   padding: 5px;
@@ -47,11 +47,14 @@
 
 .subscribe-bottom {
   background-color: rgb(255, 255, 255);
+  background-image: url('https://cdn3.f-cdn.com/contestentries/710081/14110720/57b0dd4e752b1_thumb900.jpg');
+  background-size: contain;
+  background-position: center;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin-top: 25px;
   margin-right: 25px;
-  height: 662px;
+  height: 445px;
 }

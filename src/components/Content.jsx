@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from 'react';
 import '../style/content.css';
-import newPostIcon from '../../src/00268ae6757f9159e9e92d626897f95e.svg';
+import newPostIcon from '../icons/00268ae6757f9159e9e92d626897f95e.svg';
 import { getPosts } from '../helpers/fetchApi';
 import Context from '../context/Context';
 import CreatePost from './CreatePost';

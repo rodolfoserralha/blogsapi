@@ -36,6 +36,7 @@ Abra seu terminal e digite os seguintes comandos:
 git clone git@github.com:rodolfoserralha/blogsapi.git
 
 cd blogsapi
+```
 
 ## 🚀 Iniciando a Aplicação
 Com o projeto clonado em sua máquina e dentro do diretório `blogsapi`, execute o seguinte comando do docker compose:

@@ -6,13 +6,15 @@
 /server/node_modules
 /.pnp
 .pnp.js
+/server/.env
+/.env
 
 # testing
 /coverage
 
 # production
 /build
-
+.env
 # misc
 .DS_Store
 .env.local

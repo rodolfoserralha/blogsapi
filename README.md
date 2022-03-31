@@ -23,7 +23,7 @@ Esta aplicação utiliza o [Docker](https://www.docker.com/get-started/) e o [Do
 
 ### Features
 
--  Cadastro de usuários,  posts, categorias.
+-  Cadastro de usuários, posts.
 -  Sistema de login através de token criptografados
 -  Atualizar e deletar posts
 -  Sistema de segurança em que apenas o dono do post pode deletar ou editar

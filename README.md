@@ -1,5 +1,7 @@
 ### Projeto BlogsApi
 
+<img src="images/login-page.png" width="60%">
+
 O projeto é uma aplicação fullstack onde você pode criar, editar, deletar posts e também a opção de criar um novo usuário. 
 
 ## 🛠️ Tecnologias utilizadas

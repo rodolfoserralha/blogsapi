@@ -3,6 +3,7 @@ FROM node:14-alpine
 ENV HOSTNAME=db
 ENV MYSQL_USER=root
 ENV MYSQL_PASSWORD=password
+ENV JWT_SECRET=qualquercoisa
 
 WORKDIR /usr/src/server
 
